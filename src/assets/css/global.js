@@ -7,6 +7,7 @@ export default createGlobalStyle`
         --bg-button-secondary: #FCC21A;
         --bg-button-hover-primary: #101002;
         --bg-button-hover-secondary: #CC9C0F;
+        --bg-box: #EEEEEE;
         --text-white: #fff;
         --text-secondary: #858585;
         font-size: 60%;
@@ -27,12 +28,14 @@ export default createGlobalStyle`
     }
     *, html, body, #root{
         font-family: 'Montserrat', sans-serif;
+        overflow-x: hidden;
     }
     body,
     input,
     button,
     textarea{
         font: 500 1.6rem Poppins;
+        font-family: 'Montserrat', sans-serif;
     }
     @media (min-width: 700px){
         #root{
