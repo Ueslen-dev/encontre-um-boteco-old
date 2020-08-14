@@ -28,6 +28,7 @@ export const Main = styled.section`
             text-transform: uppercase;
             transition: background-color 0.2s;
             color: var(--text-white);
+            cursor: pointer;
         }
         a:first-child{
             

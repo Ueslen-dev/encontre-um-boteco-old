@@ -5,7 +5,9 @@ import BoxContain from '../../components/Box'
 import Container from '../../components/Container'
 import InputForm from '../../components/Input'
 import SelectForm from '../../components/Select'
+import SubmitButton from '../../components/SubmitButton'
 import IconFile from '../../assets/icons/file.svg'
+
 
 import { Contain, Form} from './styles'
 
@@ -66,7 +68,10 @@ function Register(){
                             <img src={IconFile} alt="Icone arquivo"/>
                             <span>Envie uma foto do boteco</span>
                         </div>
-                        <button type="submit">cadastrar boteco</button>
+                        <SubmitButton 
+                            type="submit"
+                            name="cadastrar boteco"
+                        />
                     </Form>
                 </Container>
             </BoxContain>

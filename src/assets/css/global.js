@@ -5,11 +5,16 @@ export default createGlobalStyle`
         --bg-button-cinza: #020200;
         --bg-button-primary: #F1B916;
         --bg-button-secondary: #FCC21A;
+        --bg-button-green: #50CA89;
+        --bg-button-purple: #F5436F;
         --bg-button-hover-primary: #101002;
         --bg-button-hover-secondary: #CC9C0F;
+        --bg-button-hover-green: #36AF6F;
+        --bg-button-hover-purple: #D12852;
         --bg-box: #EEEEEE;
         --text-white: #fff;
         --text-secondary: #858585;
+        --text-yellow: #DBA205;
         font-size: 60%;
     }
     #root{
@@ -36,6 +41,9 @@ export default createGlobalStyle`
     textarea{
         font: 500 1.6rem Poppins;
         font-family: 'Montserrat', sans-serif;
+    }
+    img{
+        width: 100%;
     }
     @media (min-width: 700px){
         #root{
